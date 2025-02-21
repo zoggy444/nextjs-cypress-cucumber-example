@@ -8,8 +8,11 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <Link href='/signup'>
-      Go to Signup Page
-    </Link>
+    <>
+      <h1>Main menu</h1>
+      <Link href='/game'>
+        <button type="button">Start a game</button>
+      </Link>
+    </>
   );
 }

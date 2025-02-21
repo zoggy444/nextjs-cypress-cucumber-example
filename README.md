@@ -1,22 +1,22 @@
-# E2E Testing Project with Cypress and Cucumber with Next.js Frontend
+# E2E Testing Project with Cypress and Cucumber with Next.js App
 
-This project contains an example of E2E testing using Cypress and Cucumber with a Next.js frontend.
+This project contains an example of E2E testing using Cypress and Cucumber with a Next.js App. It is a fork from hidayahapriliansyah. 
 
 **This project is created using Node.js v20.11.1 version**
 
 ## Project Structure
 
-- **frontend**: This folder contains the Next.js project.
-- **cypress-cucumber**: This folder contains the Cypress project with Cucumber.
-  - Test files are located in the `cypress-cucumber/cypress/e2e/signup` directory with a simple test scheme.
+- **SUT**: This folder contains the System Under Test, a Next.js project.
+- **TAS**: This folder contains the Test Automation Solution, a Cypress project with Cucumber.
+  - Test files are located in the `SUT/cypress/e2e/signup` directory with a simple test scheme.
 
 ## How to Run the Project
 
 ### Running the Next.js Project
 
-1. Navigate to the `frontend` directory:
+1. Navigate to the `SUT` directory:
    ```bash
-   cd frontend
+   cd SUT
    ```
 2. Install dependencies:
    ```bash
@@ -34,7 +34,7 @@ This project contains an example of E2E testing using Cypress and Cucumber with 
 
 ### Running the Cypress Project
 
-1. Navigate to the `cypress-cucumber` directory:
+1. Navigate to the `TAS` directory:
    ```bash
    cd ../cypress-cucumber
    ```
